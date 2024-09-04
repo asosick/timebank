@@ -1,4 +1,6 @@
+import JobList from "@/components/JobList";
 import { ThemedText } from "@/components/ThemedText";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 
 
@@ -6,6 +8,6 @@ import { ThemedText } from "@/components/ThemedText";
 export default function VolunteerScreen() {
 
     return (
-          <ThemedText type="title">hello!</ThemedText>
+            <JobList/>
     );
 }

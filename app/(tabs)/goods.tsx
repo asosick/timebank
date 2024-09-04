@@ -1,3 +1,4 @@
+import JobList from "@/components/JobList";
 import { ThemedText } from "@/components/ThemedText";
 
 
@@ -6,6 +7,6 @@ import { ThemedText } from "@/components/ThemedText";
 export default function GoodsScreen() {
 
     return (
-          <ThemedText type="title">Welcome!</ThemedText>
+        <JobList/>
     );
 }

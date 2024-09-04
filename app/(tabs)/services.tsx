@@ -8,12 +8,13 @@ import { StyleSheet, Image, Platform } from 'react-native';
 
 import { Collapsible } from '@/components/Collapsible';
 import { ExternalLink } from '@/components/ExternalLink';
+import JobList from "@/components/JobList";
 
 
 
 export default function ServicesScreen() {
 
     return (
-          <ThemedText type="title">Welcome!</ThemedText>
+          <JobList/>
     );
 }
